@@ -1,0 +1,35 @@
+
+.space{
+    flex-grow: 85;
+}
+.logo{
+    opacity: 0.5;
+}
+.wrapper {
+    position: relative;
+  }
+  body {
+    background-image: url('/public/Netflix_Background.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+  }
+img{
+   mix-blend-mode: multiply;
+   background-attachment: fixed;
+  filter: brightness(1);
+    
+}
+
+.space{
+    flex: 1;
+}
+
+.Navlogo{
+  justify-content: left;
+}
+.login{
+  justify-content: right;
+}
+.btn{
+  justify-self: center;
+}
